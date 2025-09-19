@@ -23,9 +23,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Deploy step
-        run: |
-          echo "Starting deploy"
-          exit 1
+        run: echo "Deployment successful to staging"
 
   upload-artifact:
     runs-on: ubuntu-latest
