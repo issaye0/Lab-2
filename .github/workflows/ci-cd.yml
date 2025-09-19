@@ -36,5 +36,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: webpage
-          path: indxxexx.html
+          path: index.html
           if-no-files-found: error 
